@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { TaskService } from "../Service/task.service";
 
 @Component({
     selector: "show-task",
@@ -7,5 +8,14 @@ import { Component } from "@angular/core";
 })
 export class ShowTaskComponent{
     
-    tasks:string[]=["Task1" , "Task2" , "Task3"];
+    tasks:string[]=[];
+
+    constructor(private taskService:TaskService){
+
+    }
+    
+    ngAfterViewInit(){
+        this.tasks = this.taskService.getAllTask();
+    }
+
 }
