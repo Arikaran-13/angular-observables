@@ -1,0 +1,18 @@
+.showTask{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+    
+}
+
+.taskItem{
+    background-color: rgb(239, 235, 235);
+    margin: 5px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+}

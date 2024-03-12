@@ -1,0 +1,28 @@
+.newTask{
+    
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 200px;
+}
+
+.taskIpt{
+    height: 20px;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+}
+
+.createBtn{
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+    
+}
